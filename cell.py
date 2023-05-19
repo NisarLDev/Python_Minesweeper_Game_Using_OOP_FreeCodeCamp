@@ -89,7 +89,7 @@ class Cell:
                 Cell.cell_count_label_object.configure(text=f"Cells Left:{Cell.cell_count}")
     
     # Mark the cell as opened (Use is as the last line of this method)
-    self.is_opened = True
+        self.is_opened = True
     
     
     
