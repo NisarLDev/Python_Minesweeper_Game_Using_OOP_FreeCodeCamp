@@ -28,9 +28,12 @@ class Cell:
     def create_cell_count_label(location):
         lbl = Label(
             location,
+            bg='black',
+            fg='white',
             text=f"Cells Left:{settings.CELL_COUNT}"
             width=12,
             heigth=4
+            font=()
         )
         Cell.cell_count_label_object = lbl
     
