@@ -96,7 +96,11 @@ class Cell:
     def show_mine(self):
         #A logic do interrupt thegame anddisplay a message that player lost!
         self.cell_btn_object.configure(bg='red')
-    
+        ctypes.windll.user32.MessaBoxW(0, 'You clicked on a mine,'Game Over', 0)
+        
+
+
+
     def right_click_actions(self, event):
         if not self.is_mine_candidate:
             self.cell_btn_object.configure(
