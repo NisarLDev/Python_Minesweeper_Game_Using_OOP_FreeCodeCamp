@@ -25,7 +25,11 @@ class Cell:
         self.cell_btn_object = btn
 
     def left_click_actions(self, event):
-        
+        if self.is_mine:
+            self.show_mine()
+    
+    def show_mine(self):
+        #A logic do interrupt thegame anddisplay a message that player lost!
     
     def right_click_actions(selft, event):
         print(event)
