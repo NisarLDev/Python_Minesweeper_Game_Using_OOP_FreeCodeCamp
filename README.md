@@ -7,6 +7,11 @@ Programming with Python on the version 3.11.3
 
 Message Box compatible with all Systems Operating
 
+For installing the dependencies:
+
+pip install tk
+pip install PyMsgBox
+
 Bibliography:
 
 1 - Video of project https://iv.melmac.space/watch?v=OqbGRZx4xUc
