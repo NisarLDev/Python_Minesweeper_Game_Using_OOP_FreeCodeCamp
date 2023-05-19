@@ -38,7 +38,7 @@ class Cell:
                 return cell
             
     def show_cell(self):
-        pass
+        print(self.get_cell_by_axis(0,0))
     
     def show_mine(self):
         #A logic do interrupt thegame anddisplay a message that player lost!
