@@ -33,7 +33,7 @@ class Cell:
             text=f"Cells Left:{settings.CELL_COUNT}"
             width=12,
             heigth=4
-            font=()
+            font=("", 30)
         )
         Cell.cell_count_label_object = lbl
     
