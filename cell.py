@@ -14,7 +14,7 @@ class Cell:
         Cell.all.append(self)
     def create_btn_object(self, location):
         btn = Button(
-            localtion,
+            location,
             width=12,
             height=4,
             text=f"{self.x},{self.y}"
