@@ -42,7 +42,7 @@ for x in range(settings.GRID_SIZE):
         c.cell_btn_object.grid(
             column=y, row=x
         )
- print(len(Cell.all))
+ print(Cell.all)
                   
 # Run the Window
 root.mainloop()
