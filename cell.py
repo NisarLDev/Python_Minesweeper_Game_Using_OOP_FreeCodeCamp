@@ -88,7 +88,8 @@ class Cell:
             # Replace the text of cell count label with the newer count
             if Cell.cell_count_label_object:
                 Cell.cell_count_label_object.configure(text=f"Cells Left:{Cell.cell_count}")
-    
+            # If this was a mine candidate,then for safety, we sould
+            # configure the background color to grey since version 3.11 of Python does not recognize the SystemButtonFace color on Tkinter 
     # Mark the cell as opened (Use is as the last line of this method)
         self.is_opened = True
     
@@ -108,6 +109,7 @@ class Cell:
                 bg='orange'
             )
             self.is_mine_candidate = True
+        # configure the background color to grey since version 3.11 of Python does not recognize the SystemButtonFace color on Tkinter 
         else:
             self.cell_btn_object.configure(
                 bg='grey'
