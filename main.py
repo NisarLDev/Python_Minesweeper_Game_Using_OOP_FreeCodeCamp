@@ -9,7 +9,7 @@ root.title("Minesweeper Game")
 root.resizable(False, False)
 
 top_frame = Frame(root, bg='red', # Change later to black, width=1400,height=180)
-
+top_frame.place()
 
 # Run the Window
 root.mainloop()
