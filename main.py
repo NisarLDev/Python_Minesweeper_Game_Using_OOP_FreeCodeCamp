@@ -22,6 +22,6 @@ left_frame = Frame(
     width=utils.width_prct(25),
     height=utils.height_prct(75)
 )
-let_flame.place(x=0, y=180)
+let_flame.place(x=0, y=utils.height_prct(25))
 # Run the Window
 root.mainloop()
