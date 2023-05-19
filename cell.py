@@ -24,7 +24,7 @@ class Cell:
 
         self.cell_btn_object = btn
     @staticmethod
-    def create_cell_count_label(self, location):
+    def create_cell_count_label(location):
         lbl = Label(
             location,
             text=f"Cells Left:{settings.CELL_COUNT}"
