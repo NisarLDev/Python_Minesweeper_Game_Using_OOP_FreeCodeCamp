@@ -5,7 +5,7 @@ import settings
 
 class Cell:
     all = []
-    def __init__(self, x, y, is_mine=False)
+    def __init__(self, x, y, is_mine=False):
         self.is_mine = is_mine
         self.cell_btn_object = None
         self.x = x
