@@ -34,6 +34,8 @@ center_frame.place(
     x=utils.width_prct(25),
     y=utils.height_prct(25),
 )
-            
+
+c1 = Cell()
+                  
 # Run the Window
 root.mainloop()
