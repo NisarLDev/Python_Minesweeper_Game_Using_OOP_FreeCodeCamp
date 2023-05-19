@@ -10,4 +10,6 @@ root.resizable(False, False)
 
 top_frame = Frame(root, bg='red', # Change later to black, width=1400,height=180)
 
+
+# Run the Window
 root.mainloop()
