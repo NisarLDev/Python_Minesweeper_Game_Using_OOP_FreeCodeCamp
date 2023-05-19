@@ -2,6 +2,7 @@ from tkinter import Button, Label
 import random
 import settings
 import ctypes
+import sys
 
 class Cell:
     all = []
@@ -97,7 +98,7 @@ class Cell:
         #A logic do interrupt thegame anddisplay a message that player lost!
         self.cell_btn_object.configure(bg='red')
         ctypes.windll.user32.MessaBoxW(0, 'You clicked on a mine,'Game Over', 0)
-        
+        sys.exit()
 
 
 
