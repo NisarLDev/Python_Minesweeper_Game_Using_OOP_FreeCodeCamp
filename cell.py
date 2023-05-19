@@ -6,6 +6,8 @@ class Cell:
     def create_btn_object(self, location):
         btn = Button(
             localtion,
+            width=12,
+            height=4,
             text='Text'
         )
         self.cell_btn_object = btn
