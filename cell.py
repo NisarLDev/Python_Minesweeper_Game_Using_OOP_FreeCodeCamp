@@ -1,5 +1,7 @@
 from tkinter import Button
 import random
+import settings
+
 
 class Cell:
     all = []
