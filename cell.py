@@ -78,13 +78,17 @@ class Cell:
         return counter
     
     def show_cell(self):
-        Cell.cell_count -= 1
-        self.cell_btn_object.configure(text=self.surrounded_cells_mines_length)
-        # Replace the text of cell count label with the newer count
-        if Cell.cell_count_label_object:
-            Cell.cell_count_label_object.configure(text=f"Cells Left:{Cell.cell_count}")
+        if not self.is_opened:
+            Cell.cell_count -= 1
+            self.cell_btn_object.configure(text=self.surrounded_cells_mines_length)
+            # Replace the text of cell count label with the newer count
+            if Cell.cell_count_label_object:
+                Cell.cell_count_label_object.configure(text=f"Cells Left:{Cell.cell_count}")
     
     # Mark the cell as opened (Use is as the last line of this method)
+    selft.is_opened = True
+    
+    
     
     def show_mine(self):
         #A logic do interrupt thegame anddisplay a message that player lost!
