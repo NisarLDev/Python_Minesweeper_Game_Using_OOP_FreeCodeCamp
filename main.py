@@ -23,5 +23,13 @@ left_frame = Frame(
     height=utils.height_prct(75)
 )
 let_flame.place(x=0, y=utils.height_prct(25))
+                  
+center_frame= Frame(
+    root,
+    bg='green', # Change laterto black
+    width=utils.width_prct(75)
+    height=utils.height_prct(75)
+)
+                  
 # Run the Window
 root.mainloop()
