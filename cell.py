@@ -105,7 +105,7 @@ class Cell:
             self.is_mine_candidate = True
         else:
             self.cell_btn_object.configure(
-                bg='SystemButtonFace'
+                bg='grey'
             )
             self.is_mine_candidate = False
             
