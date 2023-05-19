@@ -9,5 +9,8 @@ class Cell:
             text='Text'
         )
         self.cell_btn_object = btn
-        btn.bind('<Button-1>', )
+        btn.bind('<Button-1>', self.left_click_actions )
         self.cell_btn_object = btn
+
+    defleft_click_actions(self):
+        print("I am left clicked!")
