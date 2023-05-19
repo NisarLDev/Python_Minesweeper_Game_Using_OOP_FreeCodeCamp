@@ -31,5 +31,10 @@ center_frame= Frame(
     height=utils.height_prct(75)
 )
                   
+center_frame.place(
+    x=utils.width_prct(25),
+    y=utils.height_prct(25),
+)
+                  
 # Run the Window
 root.mainloop()
