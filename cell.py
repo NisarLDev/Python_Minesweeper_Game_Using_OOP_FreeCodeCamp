@@ -30,6 +30,7 @@ class Cell:
     
     def show_mine(self):
         #A logic do interrupt thegame anddisplay a message that player lost!
+        self.cell_btn_object.configure(bg='red')
     
     def right_click_actions(selft, event):
         print(event)
