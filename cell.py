@@ -81,7 +81,7 @@ class Cell:
         self.cell_btn_object.configure(text=self.surrounded_cells_mines_length)
         # Replace the text of cell count label with the newer count
         if Cell.cell_count_label_object:
-            Cell.cell_count_label_object.configure(text='Changed!')
+            Cell.cell_count_label_object.configure(text=f"Cells Left:{Cell.cell_count}")
     def show_mine(self):
         #A logic do interrupt thegame anddisplay a message that player lost!
         self.cell_btn_object.configure(bg='red')
