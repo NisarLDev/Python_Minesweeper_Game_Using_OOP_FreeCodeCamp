@@ -5,6 +5,7 @@ import settings
 
 class Cell:
     all = []
+    cell_count = settings.CELL_COUNT
     cell_count_label_object = None
     def __init__(self, x, y, is_mine=False):
         self.is_mine = is_mine
