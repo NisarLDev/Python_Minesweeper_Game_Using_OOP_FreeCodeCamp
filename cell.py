@@ -31,9 +31,7 @@ class Cell:
             location,
             bg='black',
             fg='white',
-            text=f"Cells Left:{settings.CELL_COUNT}"
-            width=12,
-            heigth=4
+            text=f"Cells Left:{Cell.cell_count}",
             font=("", 30)
         )
         Cell.cell_count_label_object = lbl
@@ -79,6 +77,7 @@ class Cell:
         return counter
     
     def show_cell(self):
+        Cell.cell_count -= 1
         self.cell_btn_object.configure(text=self.surrounded_cells_mines_length)
         # Replace the text of cell count label with the newer count
         if Cell.cell_count_label_object:
