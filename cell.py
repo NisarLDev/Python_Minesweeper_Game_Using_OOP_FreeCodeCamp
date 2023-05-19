@@ -1,6 +1,7 @@
 from tkinter import Button, Label
 import random
 import settings
+import pymsgbox as a
 import ctypes
 import sys
 
@@ -98,7 +99,12 @@ class Cell:
     def show_mine(self):
         #A logic do interrupt thegame anddisplay a message that player lost!
         self.cell_btn_object.configure(bg='red')
-        ctypes.windll.user32.MessaBoxW(0, 'You clicked on a mine,'Game Over', 0)
+        # For Windows Operating System Uncomment the next line of code with ctypes
+        #ctypes.windll.user32.MessageBoxW(0, 'You clicked on a mine','Game Over', 0)
+        b = a.alert("You clicked on a mine" + " " + "Game Over", 'Game Over')
+        # OK whatever you type, it will return OK
+        print(b)
+        print(f"You clicked on a mine\n"+"Game Over")
         sys.exit()
 
 
