@@ -10,7 +10,7 @@ class Cell:
             localtion,
             width=12,
             height=4,
-            text='Text'
+            text=f"{self.x},{self.y}"
         )
         self.cell_btn_object = btn
         btn.bind('<Button-1>', self.left_click_actions ) # Left Click
