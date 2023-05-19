@@ -1,4 +1,4 @@
 import settings
 
 
-def height_prct(percentage)
+def height_prct(percentage):
