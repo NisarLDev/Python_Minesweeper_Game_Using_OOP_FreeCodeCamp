@@ -83,6 +83,9 @@ class Cell:
         # Replace the text of cell count label with the newer count
         if Cell.cell_count_label_object:
             Cell.cell_count_label_object.configure(text=f"Cells Left:{Cell.cell_count}")
+    
+    # Mark the cell as opened (Use is as the last line of this method)
+    
     def show_mine(self):
         #A logic do interrupt thegame anddisplay a message that player lost!
         self.cell_btn_object.configure(bg='red')
