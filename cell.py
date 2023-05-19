@@ -23,7 +23,7 @@ class Cell:
         btn.bind('<Button-3>', self.right_click_actions ) # Right Click
 
         self.cell_btn_object = btn
-
+    @staticmethod
     def create_cell_count_label(self, location):
         lbl = Label(
             location,
