@@ -40,7 +40,7 @@ class Cell:
     
     @property
     def surrounded_cells(self):
-        cells =[
+        cells = [
             self.get_cell_by_axis(self.x - 1, self.y - 1),
             self.get_cell_by_axis(self.x - 1, self.y),
             self.get_cell_by_axis(self.x - 1, self.y + 1),
