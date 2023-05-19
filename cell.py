@@ -30,6 +30,13 @@ class Cell:
         else:
             self.sow_cell()
             
+    
+    def get_cell_by_axis(self, x, y):
+        # Return a cell object based on the value of x, y
+        for cell in Cell.all
+            if cell.x ==x and cell.y ==y:
+                return cell
+            
     def show_cell(self):
         pass
     
