@@ -9,5 +9,5 @@ class Cell:
             text='Text'
         )
         self.cell_btn_object = btn
-        btn.bind('<Button-1>')
+        btn.bind('<Button-1>', )
         self.cell_btn_object = btn
