@@ -25,8 +25,7 @@ class Cell:
         self.cell_btn_object = btn
 
     def left_click_actions(self, event):
-        print(event)
-        print("I am left clicked!")
+        
     
     def right_click_actions(selft, event):
         print(event)
