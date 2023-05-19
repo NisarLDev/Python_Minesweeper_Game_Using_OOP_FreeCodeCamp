@@ -30,7 +30,7 @@ class Cell:
             location,
             text=f"Cells Left:{settings.CELL_COUNT}"
         )
-        return lbl
+        Cell.cell_count_label_object = lbl
     
     
     def left_click_actions(self, event):
