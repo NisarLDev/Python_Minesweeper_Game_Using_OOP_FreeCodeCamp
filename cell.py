@@ -29,6 +29,8 @@ class Cell:
         lbl = Label(
             location,
             text=f"Cells Left:{settings.CELL_COUNT}"
+            width=12,
+            heigth=4
         )
         Cell.cell_count_label_object = lbl
     
