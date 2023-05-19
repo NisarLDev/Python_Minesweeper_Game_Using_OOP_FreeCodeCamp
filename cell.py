@@ -12,5 +12,5 @@ class Cell:
         btn.bind('<Button-1>', self.left_click_actions )
         self.cell_btn_object = btn
 
-    defleft_click_actions(self):
+    defleft_click_actions(self, event):
         print("I am left clicked!")
