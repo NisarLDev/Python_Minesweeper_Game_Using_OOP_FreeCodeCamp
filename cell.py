@@ -27,6 +27,11 @@ class Cell:
     def left_click_actions(self, event):
         if self.is_mine:
             self.show_mine()
+        else:
+            self.sow_cell()
+            
+    def show_cell(self):
+        pass
     
     def show_mine(self):
         #A logic do interrupt thegame anddisplay a message that player lost!
