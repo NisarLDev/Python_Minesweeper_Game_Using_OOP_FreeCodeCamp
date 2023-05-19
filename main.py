@@ -20,7 +20,7 @@ left_frame = Frame(
     root,
     bg='blue',# Change later to black
     width=utils.width_prct(25),
-    height=540
+    height=utils.height_prct(75)
 )
 let_flame.place(x=0, y=180)
 # Run the Window
