@@ -1,7 +1,7 @@
 from tkinter import Button, Label
 import random
 import settings
-
+import ctypes
 
 class Cell:
     all = []
