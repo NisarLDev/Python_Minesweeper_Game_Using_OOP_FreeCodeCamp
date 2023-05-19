@@ -13,7 +13,7 @@ root.resizable(False, False)
 top_frame = Frame(root, bg='red', 
     # Change later to black, 
     width=1400,
-    height=180)
+    height=utils.height_pctr(25)
 top_frame.place(x=0, y=0)
 
 left_frame = Frame(
