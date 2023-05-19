@@ -98,8 +98,11 @@ class Cell:
         self.cell_btn_object.configure(bg='red')
     
     def right_click_actions(selft, event):
-        print(event)
-        print("I am right clicked!")
+        if not self.is_mine_candidate:
+            self.cell_btn_object.configure(
+                bg='orange'
+            )
+            self.is_mine_candidate = True
     
     @staticmethod
     def randomize_mines():
