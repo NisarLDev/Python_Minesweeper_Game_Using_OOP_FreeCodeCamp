@@ -1,4 +1,4 @@
-from tkinter import Button
+from tkinter import Button, Label
 import random
 import settings
 
@@ -24,6 +24,15 @@ class Cell:
 
         self.cell_btn_object = btn
 
+    def create_cell_count_label(self, location):
+        lbl = Label(
+            location,
+            text=f"Cells Left:{settings.CELL_COUNT}"
+        )
+    
+    
+    
+    
     def left_click_actions(self, event):
         if self.is_mine:
             self.show_mine()
