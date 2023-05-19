@@ -1,7 +1,7 @@
 from tkinter import *
+from cell import Cell
 import settings
 import utils
-import cell
 
 root = Tk()
 # Override the settings of the window
