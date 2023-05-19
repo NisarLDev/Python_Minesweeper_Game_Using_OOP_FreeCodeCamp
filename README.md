@@ -39,3 +39,20 @@ https://docs.python.org/es/3.10/library/ctypes.html
 ctypes — A foreign function library for Python — Python 3.11.3 documentation
 https://docs.python.org/3/library/ctypes.html
 
+Startpage Resultados de la búsqueda
+https://www.startpage.com/sp/search
+
+Que significa el // en Python? Operadores en Python
+https://www.freecodecamp.org/espanol/news/que-significa-doble-barra-en-python/
+
+Program to calculate sum of array in C
+https://www.tutorialspoint.com/learn_c_by_examples/sum_of_array_in_c.htm
+
+C program to find sum of array elements
+https://www.log2base2.com/c-examples/array/sum-of-array-in-c.html
+
+C Program: Find the sum of all elements of an array - w3resource
+https://www.w3resource.com/c-programming-exercises/array/c-array-exercise-3.php
+
+
+
