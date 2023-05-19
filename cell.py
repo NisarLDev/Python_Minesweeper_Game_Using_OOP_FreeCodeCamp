@@ -49,7 +49,7 @@ class Cell:
             self.get_cell_by_axis(self.x + 1, self.y + 1),
             self.get_cell_by_axis(self.x, self.y + 1)
         ]
-    
+        print(surrounded_cells)
     def show_mine(self):
         #A logic do interrupt thegame anddisplay a message that player lost!
         self.cell_btn_object.configure(bg='red')
