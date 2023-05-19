@@ -9,6 +9,7 @@ class Cell:
     cell_count_label_object = None
     def __init__(self, x, y, is_mine=False):
         self.is_mine = is_mine
+        self.is_opened = False
         self.cell_btn_object = None
         self.x = x
         self.y = y
