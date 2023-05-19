@@ -1,4 +1,6 @@
 from tkinter import Button
+import random
+
 class Cell:
     all = []
     def __init__(self, x, y, is_mine=False)
