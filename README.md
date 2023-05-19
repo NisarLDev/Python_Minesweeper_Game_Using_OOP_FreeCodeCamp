@@ -1,7 +1,7 @@
 # Python_Minesweeper_Game_Using_OOP_FreeCodeCamp
 
 
-This programme is compatible with the principal Systems Operating supported with Python
+#### This programme is compatible with the principal Systems Operating supported with Python
 
 Programming with Python on the version 3.11.3
 
@@ -11,12 +11,12 @@ Ctypes disabled by default for compatibility with the other System Operating
 
 Uncomment the line of Ctypes in the cell.py file for enable Ctypes on programme
 
-For installing the dependencies:
+### For installing the dependencies:
 
 pip install tk
 pip install PyMsgBox
 
-Bibliography:
+### Bibliography:
 
 1 - Video of project https://iv.melmac.space/watch?v=OqbGRZx4xUc
 
