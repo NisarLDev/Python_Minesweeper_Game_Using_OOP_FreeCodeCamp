@@ -28,7 +28,9 @@ for x in range(settings.GRID_SIZE):
         c.cell_btn_object.grid(
             column=y, row=x
         )
-                  
+# Call the label from the Cell class       
+Cell.create_cell_count_label(left_frame)
+
 Cell.randomize_mines()
 
 
