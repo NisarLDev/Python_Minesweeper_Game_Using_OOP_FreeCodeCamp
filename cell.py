@@ -25,3 +25,7 @@ class Cell:
     def right_click_actions(selft, event):
         print(event)
         print("I am right clicked!")
+    
+    @staticmethod
+    def randomize_mines():
+        pass
