@@ -28,7 +28,7 @@ class Cell:
         if self.is_mine:
             self.show_mine()
         else:
-            self.sow_cell()
+            self.show_cell()
             
     
     def get_cell_by_axis(self, x, y):
