@@ -5,7 +5,11 @@ This programme is compatible with the principal Systems Operating supported with
 
 Programming with Python on the version 3.11.3
 
-Message Box compatible with all Systems Operating
+Message Box compatible with all Systems Operating with PyMsgBox and Ctypes
+
+Ctypes disabled by default for compatibility with the other System Operating
+
+Uncomment the line of Ctypes in the cell.py file for enable Ctypes on programme
 
 For installing the dependencies:
 
