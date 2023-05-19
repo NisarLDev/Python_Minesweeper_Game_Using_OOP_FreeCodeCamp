@@ -7,7 +7,7 @@ Programming with Python on the version 3.11.3
 
 Message Box compatible with all Systems Operating with PyMsgBox and Ctypes
 
-Ctypes disabled by default for compatibility with the UNIX System Operating
+Ctypes disabled by default for compatibility with the UNIX Systems Operating
 
 Uncomment the line of Ctypes in the cell.py file for enable Ctypes on programme
 
