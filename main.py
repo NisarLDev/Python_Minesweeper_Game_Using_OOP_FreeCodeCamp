@@ -20,6 +20,6 @@ left_frame=Frame(
     width=360,
     height=540
 )
-
+let_flame.place(x=0, y=180)
 # Run the Window
 root.mainloop()
