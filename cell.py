@@ -49,7 +49,7 @@ class Cell:
             self.get_cell_by_axis(self.x + 1, self.y + 1),
             self.get_cell_by_axis(self.x, self.y + 1)
         ]
-        cells = [cell for cell in surrounded_cells if cell is not None]
+        cells = [cell for cell in cells if cell is not None]
         return cells
     
     @property
