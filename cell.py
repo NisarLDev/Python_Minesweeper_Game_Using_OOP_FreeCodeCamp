@@ -17,7 +17,6 @@ class Cell:
             location,
             width=12,
             height=4,
-            text=f"{self.x},{self.y}"
         )
         self.cell_btn_object = btn
         btn.bind('<Button-1>', self.left_click_actions ) # Left Click
@@ -62,7 +61,7 @@ class Cell:
         return counter
     
     def show_cell(self):
-        print(self.surrounded_cells_mines_length)
+        self.cell_btn_object.configure(text=self.surrounded_cells_mines_length)
         
         
     def show_mine(self):
